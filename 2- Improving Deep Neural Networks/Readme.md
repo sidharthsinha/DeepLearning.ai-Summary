@@ -95,16 +95,21 @@ Here are the course summary as its given on the course [link](https://www.course
   - Your model will be alright if you balance the Bias / Variance
   - For more:
     - ![](Images/01-_Bias_-_Variance.png)
+- Bias:
+  - Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. Model with high bias pays very little attention to the     training data and oversimplifies the model. It always leads to high error on training and test data.
+- Variance:
+  - Variance is the variability of model prediction for a given data point or a value which tells us spread of our data. Model with high variance pays a lot of attention to           training data and does not generalize on the data which it hasn’t seen before. As a result, such models perform very well on training data but has high error rates on test         data.
+
 - Another idea to get the bias /  variance if you don't have a 2D plotting mechanism:
   - High variance (overfitting) for example:
     - Training error: 1%
-    - Dev error: 11%
+    - Dev error: 11%   (fits too well to training set but doesnt work as well with dev set, this implies overfitting)
   - high Bias (underfitting) for example:
     - Training error: 15%
-    - Dev error: 14%
+    - Dev error: 14%   (could not capture the general idea that's why not performing well on training set)
   - high Bias (underfitting) && High variance (overfitting) for example:
-    - Training error: 15%
-    - Test error: 30%
+    - Training error: 15%  
+    - Test error: 30%   (mix of prev 2 cases) (does not perform well on training set(underfitting) and also doesnt work well this dev set(overfitting) )
   - Best:
     - Training error: 0.5%
     - Test error: 1%
