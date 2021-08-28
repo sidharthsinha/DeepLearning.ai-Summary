@@ -181,6 +181,7 @@ Here is the course summary as given on the course [link](https://www.coursera.or
   p = (n*s - n + f - s) / 2
   When s = 1 ==> P = (f-1) / 2
   ```
+- Strided Convolutions are done because if the size of input image is too large, it becomes very computationaly expensive to carry out convolutions. Therefore striding is done in order to make it more feasible while preserving necessary data at the same time.
 
 ### Convolutions over volumes
 
