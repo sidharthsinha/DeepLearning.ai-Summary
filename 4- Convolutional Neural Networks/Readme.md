@@ -156,6 +156,7 @@ Here is the course summary as given on the course [link](https://www.coursera.or
   ```
   P = (f-1) / 2
   ```
+- Valid Convolution is a convolution with pad value = 0.
 
 - In computer vision f is usually odd. Some of the reasons is that its have a center value.
 
